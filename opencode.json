@@ -1,0 +1,25 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [
+    ".opencode/instructions/conversation.md",
+    ".opencode/instructions/md-syntax.md"
+  ],
+  "mcp": {
+    "playwright": {
+      "type": "local",
+      "command": ["npx", "-y", "@playwright/mcp"],
+      "enabled": true
+    }
+  },
+  "permission": {
+    "bash": {
+      "uv run pytest *": "allow"
+    },
+    "mcp__playwright__browser_navigate": "allow",
+    "mcp__playwright__browser_snapshot": "allow",
+    "mcp__playwright__browser_click": "allow",
+    "mcp__playwright__browser_file_upload": "allow",
+    "mcp__playwright__browser_fill_form": "allow",
+    "mcp__playwright__browser_wait_for": "allow"
+  }
+}
