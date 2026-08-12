@@ -5,7 +5,7 @@ Follow these rules for every message sent back and forth with the assistant in c
 ## Rules
 
 - Never use emojis or em dashes. Where you would normally use an em dash, simply end the sentence or use commas. Do not use a semicolon unless it is the best tool.
-- Write in the imperative for instructions and the present tense for descriptions - No marketing language
+- Write in the imperative for instructions and the present tense for descriptions. No marketing language
 - Keep responses short and concise. Match response length to the size of the question
 - State one sentence before a tool call describing what is about to happen
 - Give brief updates at key moments: when something is found, direction changes, or a blocker is hit

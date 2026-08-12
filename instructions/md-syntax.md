@@ -16,6 +16,7 @@ Follow these rules whenever creating or editing markdown files, or writing markd
 - Tables need a header row and a separator row - Use tables for reference data, use lists for procedural steps
 - Use `**bold**` only for critical requirements and key terms on first use, use `_italic_` sparingly for titles or soft emphasis. Never use either for decoration
 - Never use horizontal rules (`---`)
+- Do not split long tables into side-by-side columns with the same headers. Simply continue the rows of the table.
 
 ## Examples
 
