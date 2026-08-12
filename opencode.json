@@ -13,7 +13,11 @@
   },
   "permission": {
     "bash": {
-      "uv run pytest *": "allow"
+      "uv run pytest *": "allow",
+      "git rebase *": "deny",
+      "git reset *": "deny",
+      "git push -f *": "deny",
+      "git push --force*": "deny"
     },
     "mcp__playwright__browser_navigate": "allow",
     "mcp__playwright__browser_snapshot": "allow",
